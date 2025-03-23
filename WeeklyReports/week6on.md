@@ -74,3 +74,17 @@ Meeting with Adam:
     - make a small dataset and run kriging on it as a neural network and compare it to neuralfoil
     - fix the coordinate function
 
+
+# Friday, March 14
+I've gotten to compare camber and lift for the kriging and nf models. 
+I got derivatives for kriging, I still need to for NF.
+I should create a dataset to work off of.
+Why is kriging off the data points? Is it because of 2D regression
+Is xfoil correct that increasing camber delays stall? Cuz my kriging isn't following that, is that because it's rounding for other curves.
+How does the bernstein polynomial work?
+
+
+# Monday, March 17
+I got the dervative plot from NF and it has spikes. Write that up
+Next thing is to create a good dataset to train my own model.
+
