@@ -1,30 +1,58 @@
-# XFOIL Branch – Winter 2025 Research Project #1
+# FlowLab – Airfoil Simulation and Optimization (Winter 2025)
 
-This branch contains my work for Winter 2025 Research Project #1:  
-**Learning XFOIL with Julia**
+Welcome! This repository documents my Winter 2025 research project exploring airfoil simulation, analysis, and optimization using both traditional and modern machine learning tools.
 
-## Summary
+## Project Overview
 
-- **Goal:** Become familiar with XFOIL, a tool for airfoil analysis.
-- **Language:** Julia (for scripting and automating XFOIL tasks)
-- **Key Learnings:**
-  - Installed and ran XFOIL locally
-  - Automated XFOIL runs and parameter sweeps using Julia scripts
-  - Parsed and visualized XFOIL output data in Julia
-  - Explored basic principles of airfoil simulation and aerodynamic analysis
+This project began with learning the fundamentals of XFOIL, a classic tool for airfoil analysis, and progressed to experiments with Neural Foil, a neural network-based airfoil simulator. I implemented an airfoil optimization workflow using Neural Foil and ultimately explored developing my own predictive model using symbolic regression.
 
-## Highlights
+## Goals
 
-- Developed simple Julia scripts to call XFOIL and process results
-- Learned how to interpret XFOIL output and troubleshoot common issues
-- Gained a better understanding of airfoil performance metrics
+- Gain hands-on experience with XFOIL for traditional airfoil analysis.
+- Experiment with Neural Foil to test its capabilities and limitations.
+- Develop an airfoil optimization pipeline using Neural Foil.
+- Explore symbolic regression as a method for aerodynamic modeling.
 
-## Structure
+## Key Learnings & Milestones
 
-- `src/` – Julia scripts for XFOIL automation
-- `data/` – Example input/output files
-- `notebooks/` – Analysis and visualization
+### 1. XFOIL Exploration
+- Installed and ran XFOIL locally.
+- Automated XFOIL simulations and parameter sweeps using Julia scripts.
+- Parsed and visualized XFOIL output data in Julia.
+- Learned to interpret XFOIL results and debug common issues.
+- Built foundational knowledge of aerodynamic analysis and airfoil performance metrics.
+
+### 2. Neural Foil Experiments
+- Tested Neural Foil’s accuracy and speed compared to XFOIL.
+- Explored the kinds of airfoils and parameter ranges where Neural Foil performs best (and where it struggles).
+- Identified practical limitations and ideal use cases for Neural Foil in research workflows.
+
+### 3. Airfoil Optimization Pipeline
+- Created an automated optimization loop using Neural Foil as a fast surrogate model.
+- Compared optimization results with those from traditional XFOIL-based approaches.
+- Visualized and analyzed the tradeoffs between model speed and accuracy in the optimization context.
+
+### 4. Symbolic Regression Modeling
+- Attempted to fit my own model for airfoil performance using symbolic regression.
+- Evaluated the strengths and weaknesses of symbolic regression compared to neural network models.
+- Reflected on the interpretability and practical value of symbolic models in aerodynamic design.
+
+## Technologies & Tools
+
+- **Julia** – Main scripting language (automation, data processing, visualization)
+- **XFOIL** – Traditional airfoil analysis tool
+- **Neural Foil** – Machine learning-based airfoil simulator ([Peter Sharpe's Neural Foil page](https://petersharpe.me/neuralaero.html))
+- **PyTorch** – Deep learning framework used for model development
+
+## References
+
+- [XFOIL Documentation](https://web.mit.edu/drela/Public/web/xfoil/)
+- [Neural Foil by Peter Sharpe](https://petersharpe.me/neuralaero.html)
+
+## Acknowledgments
+
+- Special thanks to my research mentor Adam Cardoza and my professor Dr. Andrew Ning, as well as the open-source communities behind XFOIL and Neural Foil.
 
 ---
 
-*Winter 2025 – Janette Wong*
+Feel free to use or adapt any scripts and workflows from this repository for your own aerodynamic research!
