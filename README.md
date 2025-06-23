@@ -1,6 +1,6 @@
 # FlowLab – Airfoil Simulation and Optimization (Winter 2025)
 
-Welcome! This repository documents my Winter 2025 research project exploring airfoil simulation, analysis, and optimization using both traditional and modern machine learning tools.
+This repository documents my Winter 2025 research project exploring airfoil simulation, analysis, and optimization using both traditional and modern machine learning tools.
 
 ## Project Overview
 
@@ -41,17 +41,17 @@ This project began with learning the fundamentals of XFOIL, a classic tool for a
 
 - **Julia** – Main scripting language (automation, data processing, visualization)
 - **XFOIL** – Traditional airfoil analysis tool
-- **Neural Foil** – Machine learning-based airfoil simulator ([Peter Sharpe's Neural Foil page](https://petersharpe.me/neuralaero.html))
+- **Neural Foil** – Machine learning-based airfoil simulator
 - **PyTorch** – Deep learning framework used for model development
 
 ## References
 
 - [XFOIL Documentation](https://web.mit.edu/drela/Public/web/xfoil/)
-- [Neural Foil by Peter Sharpe](https://petersharpe.me/neuralaero.html)
+- [Peter Sharpe's Neural Foil page]([https://github.com/peterdsharpe/NeuralFoil/tree/master]
 
 ## Acknowledgments
 
-- Special thanks to my research mentor Adam Cardoza and my professor Dr. Andrew Ning, as well as the open-source communities behind XFOIL and Neural Foil.
+- Special thanks to my research mentor Adam Cardoza and my professor Dr. Andrew Ning.
 
 ---
 
