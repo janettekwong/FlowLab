@@ -46,6 +46,7 @@ This project began with learning the fundamentals of XFOIL, a classic tool for a
 
 ## References
 
+- [BYU FLOW Lab](https://flow.byu.edu/)
 - [XFOIL Documentation](https://web.mit.edu/drela/Public/web/xfoil/)
 - [Peter Sharpe's Neural Foil page](https://github.com/peterdsharpe/NeuralFoil/tree/master)
 
